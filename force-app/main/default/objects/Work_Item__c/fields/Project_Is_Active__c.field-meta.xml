@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Is_Active__c</fullName>
+    <formula>OR(
+ISPICKVAL (Project__r.Status__c , &quot;Kick off&quot;),
+ISPICKVAL (Project__r.Status__c , &quot;In Progress&quot;), ISPICKVAL (Project__r.Status__c , &quot;UAT&quot;), ISPICKVAL (Project__r.Status__c , &quot;Hyper care&quot;), ISPICKVAL(Project__r.Status__c, &quot;Support&quot;))</formula>
+    <label>Project Is Active</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

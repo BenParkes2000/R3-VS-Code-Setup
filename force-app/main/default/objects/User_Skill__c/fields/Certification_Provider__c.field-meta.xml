@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certification_Provider__c</fullName>
+    <label>Certification Provider</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Partner Learning Camp</fullName>
+                <default>false</default>
+                <label>Partner Learning Camp</label>
+            </value>
+            <value>
+                <fullName>Hubspot</fullName>
+                <default>false</default>
+                <label>Hubspot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

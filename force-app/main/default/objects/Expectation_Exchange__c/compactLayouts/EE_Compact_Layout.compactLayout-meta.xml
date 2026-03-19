@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EE_Compact_Layout</fullName>
+    <fields>OwnerId</fields>
+    <fields>Date_of_Objective_Settings__c</fields>
+    <fields>Date_of_Annual_Review__c</fields>
+    <fields>Organisation_Level__c</fields>
+    <fields>Line_Manager__c</fields>
+    <label>EE Compact Layout</label>
+</CompactLayout>

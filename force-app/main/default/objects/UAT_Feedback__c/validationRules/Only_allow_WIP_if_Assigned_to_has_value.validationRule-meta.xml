@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_allow_WIP_if_Assigned_to_has_value</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status_UAT_Feedback__c, &quot;WIP&quot;),
+    ISBLANK(Assigned_to_UAT__c)
+)</errorConditionFormula>
+    <errorMessage>Assign a resource to this UAT Feedback Item before submitting to WIP</errorMessage>
+</ValidationRule>

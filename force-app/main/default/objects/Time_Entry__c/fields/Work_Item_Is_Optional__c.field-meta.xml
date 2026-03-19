@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item_Is_Optional__c</fullName>
+    <description>Checkbox for whether the Work Item is optional</description>
+    <formula>Work_Item__r.Is_Optional__c</formula>
+    <label>Work Item Is Optional</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

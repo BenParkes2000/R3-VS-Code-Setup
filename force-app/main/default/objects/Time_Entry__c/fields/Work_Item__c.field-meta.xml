@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Lookup to Work Item to get the one the time entry should be logged against</description>
+    <label>Work Item</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Work Item or Project must not be Completed</errorMessage>
+        <filterItems>
+            <field>Work_Item__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Deployed</value>
+        </filterItems>
+        <filterItems>
+            <field>Work_Item__c.Project__r.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Complete</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Work_Item__c</referenceTo>
+    <relationshipLabel>Time Entries</relationshipLabel>
+    <relationshipName>Time_Entries_del</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

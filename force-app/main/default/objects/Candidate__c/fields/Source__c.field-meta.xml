@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <inlineHelpText>Initial source (very important for agencies!)</inlineHelpText>
+    <label>Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>LDN</fullName>
+                <default>false</default>
+                <label>LDN</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Mason Frank</fullName>
+                <default>false</default>
+                <label>Mason Frank</label>
+            </value>
+            <value>
+                <fullName>Method Cloud</fullName>
+                <default>false</default>
+                <label>Method Cloud</label>
+            </value>
+            <value>
+                <fullName>PeopleSource</fullName>
+                <default>false</default>
+                <label>PeopleSource / Experis</label>
+            </value>
+            <value>
+                <fullName>Relovent</fullName>
+                <default>false</default>
+                <label>Relovent</label>
+            </value>
+            <value>
+                <fullName>Upwork</fullName>
+                <default>false</default>
+                <label>Upwork</label>
+            </value>
+            <value>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+                <label>Employee Referral</label>
+            </value>
+            <value>
+                <fullName>Thrive</fullName>
+                <default>false</default>
+                <label>Thrive</label>
+            </value>
+            <value>
+                <fullName>Salesforce Referral</fullName>
+                <default>false</default>
+                <label>Salesforce Referral</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Headhunt</fullName>
+                <default>false</default>
+                <label>LinkedIn Headhunt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blocker_WI_not_equal_to_Blocked_WI</fullName>
+    <active>true</active>
+    <description>Prevent the same Work Item from being both the blocker and blocked Work Item</description>
+    <errorConditionFormula>Blocked_Work_Item__c = Blocker_Work_Item__c</errorConditionFormula>
+    <errorMessage>Blocker Work Item cannot be the same as the Blocked Work Item</errorMessage>
+</ValidationRule>

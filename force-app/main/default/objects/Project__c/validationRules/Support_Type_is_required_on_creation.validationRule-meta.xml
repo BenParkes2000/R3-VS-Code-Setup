@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Type_is_required_on_creation</fullName>
+    <active>true</active>
+    <description>Ensures the Support Type picklist field is selected when a project is created.</description>
+    <errorConditionFormula>ISBLANK(TEXT(Support_Type__c))</errorConditionFormula>
+    <errorDisplayField>Support_Type__c</errorDisplayField>
+    <errorMessage>Support Type is required when creating a new Project</errorMessage>
+</ValidationRule>

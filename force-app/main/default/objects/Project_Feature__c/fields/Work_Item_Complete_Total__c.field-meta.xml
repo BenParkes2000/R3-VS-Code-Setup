@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item_Complete_Total__c</fullName>
+    <label>Work Item Complete Total</label>
+    <summarizedField>Work_Item__c.Time_Logged__c</summarizedField>
+    <summaryForeignKey>Work_Item__c.Feature__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

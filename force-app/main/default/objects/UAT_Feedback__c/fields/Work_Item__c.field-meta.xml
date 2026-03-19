@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>A lookup field to create a relationship between the UAT Feedback and Work Item tab</description>
+    <inlineHelpText>Please select the work item that this is related to.</inlineHelpText>
+    <label>Work Item</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Work_Item__c.Project__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Project_UAT__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Work_Item__c</referenceTo>
+    <relationshipLabel>UAT Feedback</relationshipLabel>
+    <relationshipName>UAT_Feedback</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

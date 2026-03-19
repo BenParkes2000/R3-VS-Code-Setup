@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Overall_Status__c, &apos;Impact&apos;),&apos;Impact&apos;,IF(CONTAINS(Overall_Status__c, &apos;Caution&apos;),&apos;Caution&apos;,&apos;On Track&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Overall project health (determined by budget, schedule, customer sentiment, scope and resource fields)</inlineHelpText>
+    <label>Project Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

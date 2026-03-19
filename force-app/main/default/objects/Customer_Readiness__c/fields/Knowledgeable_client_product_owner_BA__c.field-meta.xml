@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knowledgeable_client_product_owner_BA__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Knowledgeable client product owner/BA?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

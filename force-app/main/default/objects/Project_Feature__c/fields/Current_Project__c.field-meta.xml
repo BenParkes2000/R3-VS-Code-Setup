@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Project__c</fullName>
+    <formula>Project__c = LEFT($Setup.R3_Settings__c.ProjectId__c, 15)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Project</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

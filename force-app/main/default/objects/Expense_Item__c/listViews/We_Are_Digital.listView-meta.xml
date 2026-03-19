@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>We_Are_Digital</fullName>
+    <columns>NAME</columns>
+    <columns>Amount__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Description__c</columns>
+    <columns>Date__c</columns>
+    <columns>Mileage__c</columns>
+    <columns>Project__c</columns>
+    <columns>Type__c</columns>
+    <columns>Invoiced_to_Client__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Project__c</field>
+        <operation>contains</operation>
+        <value>We Are Digital</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Expense_Item__c.Standard</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_MONTH</value>
+    </filters>
+    <label>We Are Digital</label>
+</ListView>

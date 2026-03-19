@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RAID_Log_Compact_Layout</fullName>
+    <fields>Subject__c</fields>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Assign_To__c</fields>
+    <fields>Impact__c</fields>
+    <fields>Status__c</fields>
+    <fields>When__c</fields>
+    <label>RAID Log Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>This_Year</fullName>
+    <columns>NAME</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Year__c</columns>
+    <columns>Remaining_Annual_Leave__c</columns>
+    <columns>Approved_Annual_Leave__c</columns>
+    <columns>Awaiting_Approval__c</columns>
+    <columns>Approver__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Year__c</field>
+        <operation>equals</operation>
+        <value>2024</value>
+    </filters>
+    <label>Year 2024</label>
+</ListView>

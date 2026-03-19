@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UAT_Compact_Layout</fullName>
+    <fields>Feedback_Subject__c</fields>
+    <fields>Project_UAT__c</fields>
+    <fields>Status_UAT_Feedback__c</fields>
+    <fields>Feedback_Type__c</fields>
+    <fields>Priority__c</fields>
+    <fields>CreatedById</fields>
+    <fields>Assigned_to_UAT__c</fields>
+    <fields>Work_Item__c</fields>
+    <label>UAT Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_of_Year_Review_360_Feedback__c</fullName>
+    <description>Drafted by the individual, before the end of year review with the line manager - a short text summary of feedback on line manager support as well as wider R3 Digital performance to the individuals expectations over the year. 
+
+Line manager feedback is essential to improve team performance and should be welcomed by all line managers. It is against our R3 Digital values to be defensive when offered feedback from team members.  
+
+Individuals comments may be amended in the end of year review on agreement between individual and line manager - comments should only be shared outside of that conversation once they have been agreed</description>
+    <inlineHelpText>Drafted by the individual, before the end of year review with the line manager - a short text summary of feedback on line manager support as well as wider R3 Digital performance to the individuals expectations over the year.</inlineHelpText>
+    <label>End-of-Year Review - 360 Feedback</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_of_Rejected_WIs__c</fullName>
+    <label>Num of Rejected WIs</label>
+    <summaryFilterItems>
+        <field>Work_Item__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Rejected</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Work_Item__c.Feature__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

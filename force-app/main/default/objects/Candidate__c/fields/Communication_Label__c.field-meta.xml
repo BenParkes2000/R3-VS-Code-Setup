@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Communication_Label__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT( Communications__c ) == &quot;&quot;, &quot;&quot;, 
+TEXT( Communications__c ) + &quot;/10 Communication skills&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Communication Skills</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Manager_must_be_set</fullName>
+    <active>true</active>
+    <description>Prevents creation of a record if the Line Manager has not been set.</description>
+    <errorConditionFormula>ISBLANK( Line_Manager__c )</errorConditionFormula>
+    <errorDisplayField>Line_Manager__c</errorDisplayField>
+    <errorMessage>You must specify your Line Manager</errorMessage>
+</ValidationRule>

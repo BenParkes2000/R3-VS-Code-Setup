@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_edit_after_approval_submission</fullName>
+    <active>true</active>
+    <description>The expense items cannot be edited after the claim has been submitted for approval.</description>
+    <errorConditionFormula>!ISPICKVAL(Expense_Claim__r.Status__c, &apos;Draft&apos;)</errorConditionFormula>
+    <errorMessage>Editing of expense items is not allowed if the claim has progressed from &apos;Draft&apos; status.</errorMessage>
+</ValidationRule>

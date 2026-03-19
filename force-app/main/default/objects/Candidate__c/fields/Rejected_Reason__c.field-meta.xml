@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejected_Reason__c</fullName>
+    <label>Rejected Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Experience</fullName>
+                <default>false</default>
+                <label>Experience</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Other Job</fullName>
+                <default>false</default>
+                <label>Other Job</label>
+            </value>
+            <value>
+                <fullName>Other Technology</fullName>
+                <default>false</default>
+                <label>Other Technology</label>
+            </value>
+            <value>
+                <fullName>Poor communications</fullName>
+                <default>false</default>
+                <label>Poor communications</label>
+            </value>
+            <value>
+                <fullName>Role no longer available</fullName>
+                <default>false</default>
+                <label>Role no longer available</label>
+            </value>
+            <value>
+                <fullName>Salary</fullName>
+                <default>false</default>
+                <label>Salary</label>
+            </value>
+            <value>
+                <fullName>Thrive Score Low</fullName>
+                <default>false</default>
+                <label>Thrive Score Low</label>
+            </value>
+            <value>
+                <fullName>Thrive Test Expired</fullName>
+                <default>false</default>
+                <label>Thrive Test Expired</label>
+            </value>
+            <value>
+                <fullName>Withdrew</fullName>
+                <default>false</default>
+                <label>Withdrew</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

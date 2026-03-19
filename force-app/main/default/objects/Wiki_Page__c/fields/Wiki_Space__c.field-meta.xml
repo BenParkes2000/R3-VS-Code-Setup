@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wiki_Space__c</fullName>
+    <description>The wiki space to which the wiki page belongs.</description>
+    <label>Wiki Space</label>
+    <referenceTo>Wiki_Space__c</referenceTo>
+    <relationshipLabel>Wiki Pages</relationshipLabel>
+    <relationshipName>Wiki_Pages</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

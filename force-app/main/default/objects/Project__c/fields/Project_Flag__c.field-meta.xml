@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+IF(CONTAINS(Overall_Status__c,&apos;Impact&apos;),&quot;/img/samples/flag_red.gif&quot;, 
+IF(CONTAINS(Overall_Status__c,&apos;Caution&apos;),&quot;/img/samples/flag_yellow.gif&quot;,&quot;/img/samples/flag_green.gif&quot;)), 
+&quot;Project Flag&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

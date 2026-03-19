@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_of_Year_Review_Reviewer_Comments__c</fullName>
+    <description>Completed by the line manager during or after the end of year review with the individual, a short summary of progress against objectives and general comments on performance and development over the year. 
+
+
+Reviewer comments may be amended after the end of year review on agreement between individual and line manager - comments should only be shared outside of that conversation once they have been agreed.
+
+Ideas or actions for next year may be suggested here, but should be formalised in the following years Expectations Exchange</description>
+    <inlineHelpText>Completed by the line manager during or after the end of year review with the individual, a short summary of progress against objectives and general comments on performance and development over the year.</inlineHelpText>
+    <label>End-of-Year Review - Reviewer Comments</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Toggl_Setting</fullName>
+    <columns>SETUP_OWNER_NAME</columns>
+    <columns>SETUP_TYPE</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Password__c</columns>
+    <columns>Token__c</columns>
+    <columns>Workspace_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Toggl Setting</label>
+</ListView>

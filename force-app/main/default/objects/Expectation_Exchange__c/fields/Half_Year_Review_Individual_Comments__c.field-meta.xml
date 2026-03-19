@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Half_Year_Review_Individual_Comments__c</fullName>
+    <description>Drafted by the individual, ideally before the half-year review with the line manager - a short text summary of progress against objectives, assistance required to overcome challenges. 
+
+The 6-month review is also an opportunity to review whether the objectives need additions, or amendments in agreement based on new insights or context.
+
+Specific actions agreed in the half-year review may be documented here</description>
+    <inlineHelpText>Drafted by the individual, ideally before the half-year review with the line manager - a short text summary of progress against objectives, assistance required to overcome challenges.</inlineHelpText>
+    <label>Half-Year Review - Individual Comments</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

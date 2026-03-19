@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Show_in_Tracker__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to tell Revenue Tracker if it needs to be displayed (only matters for projects owned by R3)</description>
+    <inlineHelpText>Only matters for projects owned by the account &quot;R3 Digital&quot;</inlineHelpText>
+    <label>Show in Tracker</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

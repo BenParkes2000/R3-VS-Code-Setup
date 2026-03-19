@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Julia_s_Projects</fullName>
+    <columns>NAME</columns>
+    <columns>Age__c</columns>
+    <columns>Available_PO_Budget__c</columns>
+    <columns>Status__c</columns>
+    <columns>R3_SPOC__c</columns>
+    <columns>Lead_Consultant__c</columns>
+    <columns>IC__c</columns>
+    <columns>Project_Update__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>R3_SPOC__c</field>
+        <operation>contains</operation>
+        <value>Julia</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Backlog,Complete</value>
+    </filters>
+    <label>Julia&apos;s Projects</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

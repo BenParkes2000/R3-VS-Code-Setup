@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Full_Name__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Year__c</columns>
+    <columns>Allocation2__c</columns>
+    <columns>Remaining_Annual_Leave__c</columns>
+    <columns>Approved_Annual_Leave__c</columns>
+    <columns>Awaiting_Approval__c</columns>
+    <columns>Approver__c</columns>
+    <columns>Active__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

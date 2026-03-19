@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PeopleSource_Active_Candidates</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Role__c</columns>
+    <columns>Availability__c</columns>
+    <columns>Thrive_Score__c</columns>
+    <columns>Expected_Salary__c</columns>
+    <columns>LinkedIn__c</columns>
+    <columns>Archived__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source__c</field>
+        <operation>equals</operation>
+        <value>PeopleSource</value>
+    </filters>
+    <filters>
+        <field>Archived__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Accepted,Rejected</value>
+    </filters>
+    <label>PeopleSource Active Candidates</label>
+    <sharedTo>
+        <group>People_Source</group>
+    </sharedTo>
+</ListView>

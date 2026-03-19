@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service__c</fullName>
+    <label>Service</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aircall</fullName>
+                <default>false</default>
+                <label>Aircall</label>
+            </value>
+            <value>
+                <fullName>Blackthorn Payments</fullName>
+                <default>false</default>
+                <label>Blackthorn Payments</label>
+            </value>
+            <value>
+                <fullName>BNF Drug Interaction Database</fullName>
+                <default>false</default>
+                <label>BNF Drug Interaction Database</label>
+            </value>
+            <value>
+                <fullName>Conga</fullName>
+                <default>false</default>
+                <label>Conga</label>
+            </value>
+            <value>
+                <fullName>FormStack Documents</fullName>
+                <default>false</default>
+                <label>FormStack Documents</label>
+            </value>
+            <value>
+                <fullName>FormStack Documents and eSign</fullName>
+                <default>false</default>
+                <label>FormStack Documents and eSign</label>
+            </value>
+            <value>
+                <fullName>FormStack eSign</fullName>
+                <default>false</default>
+                <label>FormStack eSign</label>
+            </value>
+            <value>
+                <fullName>FormStack Forms</fullName>
+                <default>false</default>
+                <label>FormStack Forms</label>
+            </value>
+            <value>
+                <fullName>Gazela DM+D Medication Connector</fullName>
+                <default>false</default>
+                <label>Gazela DM+D Medication Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Interactive Scheduler</fullName>
+                <default>false</default>
+                <label>Gazela Interactive Scheduler</label>
+            </value>
+            <value>
+                <fullName>Gazela Job Board Connector</fullName>
+                <default>false</default>
+                <label>Gazela Job Board Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Microsoft Dynamics Integration Connector</fullName>
+                <default>false</default>
+                <label>Gazela Microsoft Dynamics Integration Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Netsuite Connector</fullName>
+                <default>false</default>
+                <label>Gazela Netsuite Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Sage Connector</fullName>
+                <default>false</default>
+                <label>Gazela Sage Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela SAP Connector</fullName>
+                <default>false</default>
+                <label>Gazela SAP Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela SharePoint app</fullName>
+                <default>false</default>
+                <label>Gazela SharePoint app</label>
+            </value>
+            <value>
+                <fullName>Gazela Signature Rx Connector</fullName>
+                <default>false</default>
+                <label>Gazela Signature Rx Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Stripe App</fullName>
+                <default>false</default>
+                <label>Gazela Stripe App</label>
+            </value>
+            <value>
+                <fullName>Gazela Trustpilot Connector</fullName>
+                <default>false</default>
+                <label>Gazela Trustpilot Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Xero Connector</fullName>
+                <default>false</default>
+                <label>Gazela Xero Connector</label>
+            </value>
+            <value>
+                <fullName>Gazela Zoom Meeting Connector</fullName>
+                <default>false</default>
+                <label>Gazela Zoom Meeting Connector</label>
+            </value>
+            <value>
+                <fullName>Gearset</fullName>
+                <default>false</default>
+                <label>Gearset</label>
+            </value>
+            <value>
+                <fullName>Gearset - CPQ+ and Billing</fullName>
+                <default>false</default>
+                <label>Gearset - CPQ+ and Billing</label>
+            </value>
+            <value>
+                <fullName>Gearset - Enterprise</fullName>
+                <default>false</default>
+                <label>Gearset - Enterprise</label>
+            </value>
+            <value>
+                <fullName>Gearset - Salesforce Industries</fullName>
+                <default>false</default>
+                <label>Gearset - Salesforce Industries</label>
+            </value>
+            <value>
+                <fullName>Gearset - Starter</fullName>
+                <default>false</default>
+                <label>Gearset - Starter</label>
+            </value>
+            <value>
+                <fullName>Gearset - Teams</fullName>
+                <default>false</default>
+                <label>Gearset - Teams</label>
+            </value>
+            <value>
+                <fullName>Impriviata</fullName>
+                <default>false</default>
+                <label>Impriviata</label>
+            </value>
+            <value>
+                <fullName>InventoryWorks - Small Business Inventory Management</fullName>
+                <default>false</default>
+                <label>InventoryWorks - Small Business Inventory Management</label>
+            </value>
+            <value>
+                <fullName>IQVIA OneKey</fullName>
+                <default>false</default>
+                <label>IQVIA OneKey</label>
+            </value>
+            <value>
+                <fullName>Jitterbit</fullName>
+                <default>false</default>
+                <label>Jitterbit</label>
+            </value>
+            <value>
+                <fullName>Loqate</fullName>
+                <default>false</default>
+                <label>Loqate</label>
+            </value>
+            <value>
+                <fullName>Natterbox</fullName>
+                <default>false</default>
+                <label>Natterbox</label>
+            </value>
+            <value>
+                <fullName>NHS Connector</fullName>
+                <default>false</default>
+                <label>NHS Connector</label>
+            </value>
+            <value>
+                <fullName>OwnBackup</fullName>
+                <default>false</default>
+                <label>OwnBackup</label>
+            </value>
+            <value>
+                <fullName>Phone System</fullName>
+                <default>false</default>
+                <label>Phone System</label>
+            </value>
+            <value>
+                <fullName>SAP DI Server</fullName>
+                <default>false</default>
+                <label>SAP DI Server</label>
+            </value>
+            <value>
+                <fullName>SignatureRx</fullName>
+                <default>false</default>
+                <label>SignatureRx</label>
+            </value>
+            <value>
+                <fullName>Stockley&apos;s Drug Interaction Database</fullName>
+                <default>false</default>
+                <label>Stockley&apos;s Drug Interaction Database</label>
+            </value>
+            <value>
+                <fullName>Vonage</fullName>
+                <default>false</default>
+                <label>Vonage</label>
+            </value>
+            <value>
+                <fullName>Workato</fullName>
+                <default>false</default>
+                <label>Workato</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

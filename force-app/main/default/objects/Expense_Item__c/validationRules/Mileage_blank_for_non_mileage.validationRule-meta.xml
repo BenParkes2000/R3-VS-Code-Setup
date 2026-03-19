@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mileage_blank_for_non_mileage</fullName>
+    <active>true</active>
+    <description>Ensure the mileage field is blank for non-mileage expenses</description>
+    <errorConditionFormula>!ISPICKVAL(Type__c,&apos;Mileage&apos;) &amp;&amp; !ISBLANK(Mileage__c)</errorConditionFormula>
+    <errorDisplayField>Mileage__c</errorDisplayField>
+    <errorMessage>Mileage field should be blank for non-mileage expenses</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_License_Compact_Layout</fullName>
+    <fields>License__c</fields>
+    <fields>Quantity__c</fields>
+    <fields>Status__c</fields>
+    <label>Salesforce License Compact Layout</label>
+</CompactLayout>

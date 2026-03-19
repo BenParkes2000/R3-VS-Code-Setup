@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item_Subject__c</fullName>
+    <description>Subject of the Work Item, which describes what the WI is for</description>
+    <externalId>false</externalId>
+    <formula>Work_Item__r.Subject__c</formula>
+    <label>Work Item Subject</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

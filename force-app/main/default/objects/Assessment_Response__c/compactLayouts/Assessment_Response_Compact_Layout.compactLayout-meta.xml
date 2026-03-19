@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Response_Compact_Layout</fullName>
+    <fields>Assessment__c</fields>
+    <fields>Candidate__c</fields>
+    <fields>Total_Points__c</fields>
+    <fields>Score__c</fields>
+    <label>Assessment Response Compact Layout</label>
+</CompactLayout>

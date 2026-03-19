@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_PreSales__c</fullName>
+    <formula>ISPICKVAL(Status__c, &apos;Backlog&apos;) 
+|| ISPICKVAL(Status__c, &apos;Estimate&apos;) 
+|| ISPICKVAL(Status__c, &apos;Planning&apos;) 
+|| ISPICKVAL(Status__c, &apos;Kick off&apos;)
+|| ISPICKVAL(Status__c, &apos;Discovery&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is PreSales</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

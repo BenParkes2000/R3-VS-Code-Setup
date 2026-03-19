@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Billable_Hours_Reports__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+&apos;/lightning/r/Report/00OUE000001TzVl2AK/view&apos; &amp;
+&apos;?fv0=&apos; &amp; Id &amp;
+&apos;&amp;fv1=LAST_WEEK&amp;fv2=false&apos;,
+&apos;Click Here&apos;,
+&apos;_blank&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Non-Billable Hours Reports</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

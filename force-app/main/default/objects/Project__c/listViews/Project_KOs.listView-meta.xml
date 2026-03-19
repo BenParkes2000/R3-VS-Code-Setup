@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_KOs</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Salesforce_Signed__c</columns>
+    <columns>R3_Signed__c</columns>
+    <columns>Deposit_Paid__c</columns>
+    <columns>KO_Date__c</columns>
+    <columns>Disco_Date__c</columns>
+    <columns>Playback_date__c</columns>
+    <columns>Lead_Consultant__c</columns>
+    <columns>IC__c</columns>
+    <columns>Project_Update__c</columns>
+    <columns>Total_Est_Cost__c</columns>
+    <columns>Total_PO_Budget__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Planning,Kick off,Discovery</value>
+    </filters>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>Gazela</value>
+    </filters>
+    <label>Project KOs</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

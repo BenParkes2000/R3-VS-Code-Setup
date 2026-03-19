@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_of_Year_Review_Individual_Comments__c</fullName>
+    <description>Drafted by the individual, before the end of year review with the line manager - a short text summary of progress against objectives and general comments on performance and development over the year. 
+
+Note the individual should also draft the end of year review status against the performance and development objectives in the table above - this input will form the basis for the individual/line manager conversation and agreement. The individual should expect that the line manager will challenge the proposed end of year status against the SMART objectives.
+
+Individual comments may be amended in the end of year review on agreement between individual and line manager - comments should only be shared outside of that conversation once they have been agreed.
+
+Ideas or actions for next year may be suggested here, but should be formalised in the following years Expectations Exchange</description>
+    <inlineHelpText>Drafted by the individual, before the end of year review with the line manager - a short text summary of progress against objectives and general comments on performance and development over the year.</inlineHelpText>
+    <label>End-of-Year Review - Individual Comments</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

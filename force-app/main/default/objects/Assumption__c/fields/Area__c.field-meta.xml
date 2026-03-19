@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area__c</fullName>
+    <label>Area</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Governance</fullName>
+                <default>false</default>
+                <label>Governance</label>
+            </value>
+            <value>
+                <fullName>Requirements</fullName>
+                <default>false</default>
+                <label>Requirements</label>
+            </value>
+            <value>
+                <fullName>Readiness</fullName>
+                <default>false</default>
+                <label>Readiness</label>
+            </value>
+            <value>
+                <fullName>Integrations</fullName>
+                <default>false</default>
+                <label>Integrations</label>
+            </value>
+            <value>
+                <fullName>3rd Parties</fullName>
+                <default>false</default>
+                <label>3rd Parties</label>
+            </value>
+            <value>
+                <fullName>Licenses</fullName>
+                <default>false</default>
+                <label>Licenses</label>
+            </value>
+            <value>
+                <fullName>Org</fullName>
+                <default>false</default>
+                <label>Org</label>
+            </value>
+            <value>
+                <fullName>System</fullName>
+                <default>false</default>
+                <label>System</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_book_time_to_deployed_work_item</fullName>
+    <active>false</active>
+    <errorConditionFormula>(TEXT(Work_Item__r.Status__c) == &apos;Deployed&apos;)</errorConditionFormula>
+    <errorMessage>You cannot book time against a deployed work item</errorMessage>
+</ValidationRule>

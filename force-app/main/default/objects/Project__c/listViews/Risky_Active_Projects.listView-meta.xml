@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risky_Active_Projects</fullName>
+    <columns>NAME</columns>
+    <columns>Risk__c</columns>
+    <columns>Status__c</columns>
+    <columns>Project_Update__c</columns>
+    <columns>Age__c</columns>
+    <columns>Lead_Consultant__c</columns>
+    <columns>Total_Est_Cost__c</columns>
+    <columns>Total_PO_Budget__c</columns>
+    <columns>Total_Actual_Billable__c</columns>
+    <columns>Resource_Flag__c</columns>
+    <columns>Schedule_Flag__c</columns>
+    <columns>Scope_Flag__c</columns>
+    <columns>Budget_Flag__c</columns>
+    <columns>Customer_Flag__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>R3 Digital</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Planning,Kick off,Discovery,On Hold,In Progress,UAT,Hyper care,Support</value>
+    </filters>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>Gazela</value>
+    </filters>
+    <filters>
+        <field>Risk__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Risky Active Projects</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Description__c</fullName>
+    <description>This field should be used to provide information about issues related to work items in the project.</description>
+    <inlineHelpText>This field should be used to provide detailed information about issues related to work items in the project. Be as specific as possible, including any relevant details about the impact of the issue, including screenshots where necessary.</inlineHelpText>
+    <label>Feedback Description</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

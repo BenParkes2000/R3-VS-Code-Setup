@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complexity_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>How_many_Clouds_involved_Score__c +
+How_many_Integrations_required_Score__c +
+Is_it_a_green_field_project_Score__c +
+Compact_Timeline_Score__c +
+Do_they_want_phased_rollout_Score__c +
+Are_3rd_parties_involved_Score__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Complexity Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

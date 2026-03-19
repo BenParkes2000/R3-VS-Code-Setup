@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blocker_Work_Item__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>The work item that is currently blocking</description>
+    <label>Blocker Work Item</label>
+    <referenceTo>Work_Item__c</referenceTo>
+    <relationshipLabel>Dependent Work Items</relationshipLabel>
+    <relationshipName>Work_Item_Dependencies1</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

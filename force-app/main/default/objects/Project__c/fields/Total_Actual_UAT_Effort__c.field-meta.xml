@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Actual_UAT_Effort__c</fullName>
+    <description>Rolls up the actual estimate from UAT Feedback Item records.</description>
+    <inlineHelpText>This field shows the total actual estimate from UAT Feedback Items</inlineHelpText>
+    <label>Total Actual UAT Effort (Hours)</label>
+    <summarizedField>UAT_Feedback__c.Est_Effort_uat_hours__c</summarizedField>
+    <summaryForeignKey>UAT_Feedback__c.Project_UAT__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

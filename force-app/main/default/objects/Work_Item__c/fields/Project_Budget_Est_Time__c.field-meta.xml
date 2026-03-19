@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Budget_Est_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( Is_Unapproved__c, 0, 
+
+IF ( Is_Implemented__c || Time_Logged__c &gt; Est_Time__c,  Time_Logged__c ,  Est_Time__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project Budget Est Time</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

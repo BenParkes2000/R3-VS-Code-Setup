@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Status__c</fullName>
+    <label>Salesforce Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>true</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Not to be submitted</fullName>
+                <default>false</default>
+                <label>Not to be submitted</label>
+            </value>
+            <value>
+                <fullName>To be submitted</fullName>
+                <default>false</default>
+                <label>To be submitted</label>
+            </value>
+            <value>
+                <fullName>Submitted to Salesforce</fullName>
+                <default>false</default>
+                <label>Submitted to Salesforce</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Draft</controllingFieldValue>
+            <controllingFieldValue>R3 Approved</controllingFieldValue>
+            <controllingFieldValue>Sent for Customer Approval</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Approved</controllingFieldValue>
+            <valueName>Not to be submitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Approved</controllingFieldValue>
+            <valueName>To be submitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Approved</controllingFieldValue>
+            <valueName>Submitted to Salesforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Approved</controllingFieldValue>
+            <valueName>Accepted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Approved</controllingFieldValue>
+            <valueName>Rejected</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

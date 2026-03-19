@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Project_Items_All</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Feature__c</columns>
+    <columns>Status__c</columns>
+    <columns>Est_Time__c</columns>
+    <columns>Time_Logged__c</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Project_Phase__c</columns>
+    <columns>Sort_Order__c</columns>
+    <columns>Is_Optional__c</columns>
+    <columns>Toggl_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Current_Project__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Current Project Items - All</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

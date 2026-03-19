@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Billable__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Checkbox for whether the time entry is billable or not. Default value is true</description>
+    <label>Is Billable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

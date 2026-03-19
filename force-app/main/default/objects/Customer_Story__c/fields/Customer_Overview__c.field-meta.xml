@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Overview__c</fullName>
+    <inlineHelpText>e.g. XYZ Company is a mid-market insurance carrier specializing in Commercial Property &amp; Casualty for agriculture. XYZ was faced with major disruption in their industry due to changing consumer needs and new competition from direct model challengers…etc.</inlineHelpText>
+    <label>Customer Overview</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

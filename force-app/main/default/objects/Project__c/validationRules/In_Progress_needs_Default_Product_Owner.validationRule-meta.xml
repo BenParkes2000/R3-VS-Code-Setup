@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_Progress_needs_Default_Product_Owner</fullName>
+    <active>false</active>
+    <description>When Status is moved to In Progress (or beyond) a Default Product Owner is required.</description>
+    <errorConditionFormula>AND(
+ OR(
+ISPICKVAL( Status__c, &apos;In Progress&apos;),
+ISPICKVAL( Status__c, &apos;UAT&apos;),
+ISPICKVAL( Status__c, &apos;Hyper care&apos;),
+ISPICKVAL( Status__c, &apos;Support&apos;),
+ISPICKVAL( Status__c, &apos;Complete&apos;)
+),
+ISBLANK(Default_Product_Owner__c)
+)</errorConditionFormula>
+    <errorMessage>To move Status beyond &apos;In Progress&apos; please assign a Default Product Owner.</errorMessage>
+</ValidationRule>

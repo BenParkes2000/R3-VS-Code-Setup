@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accomodation</fullName>
+                <default>false</default>
+                <label>Accomodation</label>
+            </value>
+            <value>
+                <fullName>Computer Hardware</fullName>
+                <default>false</default>
+                <label>Computer Hardware</label>
+            </value>
+            <value>
+                <fullName>Computer Software</fullName>
+                <default>false</default>
+                <label>Computer Software</label>
+            </value>
+            <value>
+                <fullName>Entertainment (not tax deductible)</fullName>
+                <default>false</default>
+                <label>Entertainment (not tax deductible)</label>
+            </value>
+            <value>
+                <fullName>Entertainment (tax deductible)</fullName>
+                <default>false</default>
+                <label>Entertainment (tax deductible)</label>
+            </value>
+            <value>
+                <fullName>Equipment (less than 1000)</fullName>
+                <default>false</default>
+                <label>Equipment (less than 1000)</label>
+            </value>
+            <value>
+                <fullName>Equipment (more than 1000)</fullName>
+                <default>false</default>
+                <label>Equipment (more than 1000)</label>
+            </value>
+            <value>
+                <fullName>Eye Test</fullName>
+                <default>false</default>
+                <label>Eye Test</label>
+            </value>
+            <value>
+                <fullName>General maintenance</fullName>
+                <default>false</default>
+                <label>General maintenance</label>
+            </value>
+            <value>
+                <fullName>Home Office Cost</fullName>
+                <default>false</default>
+                <label>Home Office Cost</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Journals, Magazines, Newspapers</fullName>
+                <default>false</default>
+                <label>Journals, Magazines, Newspapers</label>
+            </value>
+            <value>
+                <fullName>Leasing Costs</fullName>
+                <default>false</default>
+                <label>Leasing Costs</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Mileage</fullName>
+                <default>false</default>
+                <label>Mileage</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Other: Please specify (No VAT)</fullName>
+                <default>false</default>
+                <label>Other: Please specify (No VAT)</label>
+            </value>
+            <value>
+                <fullName>Other: Please specify (VAT)</fullName>
+                <default>false</default>
+                <label>Other: Please specify (VAT)</label>
+            </value>
+            <value>
+                <fullName>Other (not tax deductible)</fullName>
+                <default>false</default>
+                <label>Other (not tax deductible)</label>
+            </value>
+            <value>
+                <fullName>Parking</fullName>
+                <default>false</default>
+                <label>Parking</label>
+            </value>
+            <value>
+                <fullName>Postage</fullName>
+                <default>false</default>
+                <label>Postage</label>
+            </value>
+            <value>
+                <fullName>Printing and Stationary</fullName>
+                <default>false</default>
+                <label>Printing and Stationary</label>
+            </value>
+            <value>
+                <fullName>Professional &amp; Legal Fees</fullName>
+                <default>false</default>
+                <label>Professional &amp; Legal Fees</label>
+            </value>
+            <value>
+                <fullName>Subscriptions, Professional Memberships</fullName>
+                <default>false</default>
+                <label>Subscriptions, Professional Memberships</label>
+            </value>
+            <value>
+                <fullName>Subsistence (e.g. lunch)</fullName>
+                <default>false</default>
+                <label>Subsistence (e.g. lunch)</label>
+            </value>
+            <value>
+                <fullName>Telephone &amp; Internet</fullName>
+                <default>false</default>
+                <label>Telephone &amp; Internet</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Accounting Fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Accounting Fee</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Bank Charges</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bank Charges</label>
+            </value>
+            <value>
+                <fullName>Bank Interest Payable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bank Interest Payable</label>
+            </value>
+            <value>
+                <fullName>Charitable Donations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Charitable Donations</label>
+            </value>
+            <value>
+                <fullName>Childcare Vouchers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Childcare Vouchers</label>
+            </value>
+            <value>
+                <fullName>Consultancy Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consultancy Fees</label>
+            </value>
+            <value>
+                <fullName>Discounts allowable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Discounts allowable</label>
+            </value>
+            <value>
+                <fullName>Filing fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Filing fee</label>
+            </value>
+            <value>
+                <fullName>Hire Purchase</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hire Purchase</label>
+            </value>
+            <value>
+                <fullName>Mileage (Company Car)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mileage (Company Car)</label>
+            </value>
+            <value>
+                <fullName>Online Newspapers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online Newspapers</label>
+            </value>
+            <value>
+                <fullName>Other Interest Payable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Interest Payable</label>
+            </value>
+            <value>
+                <fullName>Pension</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pension</label>
+            </value>
+            <value>
+                <fullName>Power (heat, light of business premises)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Power (heat, light of business premises)</label>
+            </value>
+            <value>
+                <fullName>Rental use of business premises</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rental use of business premises</label>
+            </value>
+            <value>
+                <fullName>Sub-Contractor costs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sub-Contractor costs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

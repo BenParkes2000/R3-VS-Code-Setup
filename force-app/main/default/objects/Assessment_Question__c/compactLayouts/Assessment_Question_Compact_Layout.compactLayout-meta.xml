@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Question_Compact_Layout</fullName>
+    <fields>Question__c</fields>
+    <fields>Assessment__c</fields>
+    <fields>Response_Type__c</fields>
+    <fields>Sort_Order__c</fields>
+    <fields>Status__c</fields>
+    <label>Assessment Question Compact Layout</label>
+</CompactLayout>

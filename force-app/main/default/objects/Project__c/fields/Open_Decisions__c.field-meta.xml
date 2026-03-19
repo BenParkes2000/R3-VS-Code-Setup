@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Decisions__c</fullName>
+    <label>Open Decisions</label>
+    <summaryFilterItems>
+        <field>RAID_Log__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Decision</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>RAID_Log__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </summaryFilterItems>
+    <summaryForeignKey>RAID_Log__c.Project__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

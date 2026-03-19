@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item_Incomplete_Total__c</fullName>
+    <label>Work Item Incomplete Total</label>
+    <summarizedField>Work_Item__c.Remaining_Budget_Hours__c</summarizedField>
+    <summaryFilterItems>
+        <field>Work_Item__c.Is_Optional__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Work_Item__c.Status__c</field>
+        <operation>contains</operation>
+        <value>Backlog, Under Analysis, Ready, Approved, Blocked, In Progress</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Work_Item__c.Feature__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

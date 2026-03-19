@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Projects_Lighthouse_Accounts</fullName>
+    <columns>NAME</columns>
+    <columns>Age__c</columns>
+    <columns>Lead_Consultant__c</columns>
+    <columns>R3_SPOC__c</columns>
+    <columns>Project_Update__c</columns>
+    <columns>Total_PO_Budget__c</columns>
+    <columns>Total_Actual_Billable__c</columns>
+    <columns>Remaining_Available_PO_Budget__c</columns>
+    <columns>Status__c</columns>
+    <columns>Risk__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>R3 Digital</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Discovery,On Hold,In Progress,UAT,Hyper care,Kick off,Support</value>
+    </filters>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>Gazela</value>
+    </filters>
+    <filters>
+        <field>Lighthouse_Account__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Active Projects - Lighthouse Accounts</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

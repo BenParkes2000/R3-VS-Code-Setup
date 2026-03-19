@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event__c</fullName>
+    <description>DEPRECATED: 13-03-24 - Replaced by Timesheet Scheduler</description>
+    <label>Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>*</fullName>
+                <default>false</default>
+                <label>*</label>
+            </value>
+            <value>
+                <fullName>created</fullName>
+                <default>false</default>
+                <label>created</label>
+            </value>
+            <value>
+                <fullName>updated</fullName>
+                <default>false</default>
+                <label>updated</label>
+            </value>
+            <value>
+                <fullName>deleted</fullName>
+                <default>false</default>
+                <label>deleted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

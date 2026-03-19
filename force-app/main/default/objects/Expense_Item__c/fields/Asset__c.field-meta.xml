@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>For larger ticket items (e.g. computer equipment, software licenses, office furniture) please create a related asset record.</inlineHelpText>
+    <label>Asset</label>
+    <referenceTo>Asset__c</referenceTo>
+    <relationshipLabel>Expense Items</relationshipLabel>
+    <relationshipName>Expense_Items</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

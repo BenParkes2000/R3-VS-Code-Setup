@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Blocked_Reason</fullName>
+    <active>true</active>
+    <description>Require a reason when the status is set to blocked</description>
+    <errorConditionFormula>ISPICKVAL(Status_UAT_Feedback__c , &quot;Blocked&quot;) &amp;&amp; ISBLANK(Blocked_Reason__c)</errorConditionFormula>
+    <errorDisplayField>Blocked_Reason__c</errorDisplayField>
+    <errorMessage>Blocked Reason must be provided when Status is set to Blocked.</errorMessage>
+</ValidationRule>

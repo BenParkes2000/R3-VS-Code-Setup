@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>License__c</fullName>
+    <label>License</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advertising Studio</fullName>
+                <default>false</default>
+                <label>Advertising Studio</label>
+            </value>
+            <value>
+                <fullName>Agentforce</fullName>
+                <default>false</default>
+                <label>Agentforce</label>
+            </value>
+            <value>
+                <fullName>Agentforce - Customer Service</fullName>
+                <default>false</default>
+                <label>Agentforce - Customer Service</label>
+            </value>
+            <value>
+                <fullName>Agentforce - Marketing Campaigns</fullName>
+                <default>false</default>
+                <label>Agentforce - Marketing Campaigns</label>
+            </value>
+            <value>
+                <fullName>Agentforce - Personal Shopper</fullName>
+                <default>false</default>
+                <label>Agentforce - Personal Shopper</label>
+            </value>
+            <value>
+                <fullName>Agentforce - Sales Coach</fullName>
+                <default>false</default>
+                <label>Agentforce - Sales Coach</label>
+            </value>
+            <value>
+                <fullName>Agentforce - SDR</fullName>
+                <default>false</default>
+                <label>Agentforce - SDR</label>
+            </value>
+            <value>
+                <fullName>API Access</fullName>
+                <default>false</default>
+                <label>API Access</label>
+            </value>
+            <value>
+                <fullName>Channel Account Login</fullName>
+                <default>false</default>
+                <label>Channel Account Login</label>
+            </value>
+            <value>
+                <fullName>Channel Account Member</fullName>
+                <default>false</default>
+                <label>Channel Account Member</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud</fullName>
+                <default>false</default>
+                <label>Commerce Cloud</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B Login License</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B Login License</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B Member License</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B Member License</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B Plus Login License</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B Plus Login License</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B Plus Member License</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B Plus Member License</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2C</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2C</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud D2C</fullName>
+                <default>false</default>
+                <label>Commerce Cloud D2C</label>
+            </value>
+            <value>
+                <fullName>CPQ</fullName>
+                <default>false</default>
+                <label>CPQ</label>
+            </value>
+            <value>
+                <fullName>CPQ &amp; Billing</fullName>
+                <default>false</default>
+                <label>CPQ &amp; Billing</label>
+            </value>
+            <value>
+                <fullName>CPQ for Customer Communities Login</fullName>
+                <default>false</default>
+                <label>CPQ for Customer Communities Login</label>
+            </value>
+            <value>
+                <fullName>CPQ for Customer Communities Member</fullName>
+                <default>false</default>
+                <label>CPQ for Customer Communities Member</label>
+            </value>
+            <value>
+                <fullName>CPQ for Partner Communities Login</fullName>
+                <default>false</default>
+                <label>CPQ for Partner Communities Login</label>
+            </value>
+            <value>
+                <fullName>CPQ for Partner Communities Member</fullName>
+                <default>false</default>
+                <label>CPQ for Partner Communities Member</label>
+            </value>
+            <value>
+                <fullName>CPQ Plus</fullName>
+                <default>false</default>
+                <label>CPQ Plus</label>
+            </value>
+            <value>
+                <fullName>CPQ Plus &amp; Billing</fullName>
+                <default>false</default>
+                <label>CPQ Plus &amp; Billing</label>
+            </value>
+            <value>
+                <fullName>CRM Analytics Growth</fullName>
+                <default>false</default>
+                <label>CRM Analytics Growth</label>
+            </value>
+            <value>
+                <fullName>CRM Analytics Plus</fullName>
+                <default>false</default>
+                <label>CRM Analytics Plus</label>
+            </value>
+            <value>
+                <fullName>Customer Community Login</fullName>
+                <default>false</default>
+                <label>Customer Community Login</label>
+            </value>
+            <value>
+                <fullName>Customer Community Member</fullName>
+                <default>false</default>
+                <label>Customer Community Member</label>
+            </value>
+            <value>
+                <fullName>Customer Community Plus Member</fullName>
+                <default>false</default>
+                <label>Customer Community Plus Member</label>
+            </value>
+            <value>
+                <fullName>Data Mask</fullName>
+                <default>false</default>
+                <label>Data Mask</label>
+            </value>
+            <value>
+                <fullName>Datorama Advanced Reports</fullName>
+                <default>false</default>
+                <label>Datorama Advanced Reports</label>
+            </value>
+            <value>
+                <fullName>Digital Engagement</fullName>
+                <default>false</default>
+                <label>Digital Engagement</label>
+            </value>
+            <value>
+                <fullName>Einstein AI for Commerce Cloud</fullName>
+                <default>false</default>
+                <label>Einstein AI for Commerce Cloud</label>
+            </value>
+            <value>
+                <fullName>Einstein AI for Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Einstein AI for Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Einstein AI for Sales Cloud</fullName>
+                <default>false</default>
+                <label>Einstein AI for Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>Einstein AI for Service Cloud</fullName>
+                <default>false</default>
+                <label>Einstein AI for Service Cloud</label>
+            </value>
+            <value>
+                <fullName>Einstein Chat Bots Conversations</fullName>
+                <default>false</default>
+                <label>Einstein Chat Bots Conversations</label>
+            </value>
+            <value>
+                <fullName>Einstein Conversation Insights</fullName>
+                <default>false</default>
+                <label>Einstein Conversation Insights</label>
+            </value>
+            <value>
+                <fullName>Einstein Predictions</fullName>
+                <default>false</default>
+                <label>Einstein Predictions</label>
+            </value>
+            <value>
+                <fullName>Enterprise Edition</fullName>
+                <default>false</default>
+                <label>Enterprise Edition</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud - Customer Login</fullName>
+                <default>false</default>
+                <label>Experience Cloud - Customer Login</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud - Customer Login Plus</fullName>
+                <default>false</default>
+                <label>Experience Cloud - Customer Login Plus</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud - Customer Member</fullName>
+                <default>false</default>
+                <label>Experience Cloud - Customer Member</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud - Partner Login</fullName>
+                <default>false</default>
+                <label>Experience Cloud - Partner Login</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud - Partner Member</fullName>
+                <default>false</default>
+                <label>Experience Cloud - Partner Member</label>
+            </value>
+            <value>
+                <fullName>External Apps Login</fullName>
+                <default>false</default>
+                <label>External Apps Login</label>
+            </value>
+            <value>
+                <fullName>External Apps Member</fullName>
+                <default>false</default>
+                <label>External Apps Member</label>
+            </value>
+            <value>
+                <fullName>Field Service Contractor</fullName>
+                <default>false</default>
+                <label>Field Service Contractor</label>
+            </value>
+            <value>
+                <fullName>Field Service Dispatcher</fullName>
+                <default>false</default>
+                <label>Field Service Dispatcher</label>
+            </value>
+            <value>
+                <fullName>Field Service Lightning</fullName>
+                <default>false</default>
+                <label>Field Service Lightning</label>
+            </value>
+            <value>
+                <fullName>Field Service Plus</fullName>
+                <default>false</default>
+                <label>Field Service Plus</label>
+            </value>
+            <value>
+                <fullName>Field Service Technician</fullName>
+                <default>false</default>
+                <label>Field Service Technician</label>
+            </value>
+            <value>
+                <fullName>Foundations - Agentforce &amp; Data Cloud - FREE</fullName>
+                <default>false</default>
+                <label>Foundations - Agentforce &amp; Data Cloud - FREE</label>
+            </value>
+            <value>
+                <fullName>Health Cloud</fullName>
+                <default>false</default>
+                <label>Health Cloud</label>
+            </value>
+            <value>
+                <fullName>Health Cloud Customer Community Logins</fullName>
+                <default>false</default>
+                <label>Health Cloud Customer Community Logins</label>
+            </value>
+            <value>
+                <fullName>Health Cloud Customer Community Members</fullName>
+                <default>false</default>
+                <label>Health Cloud Customer Community Members</label>
+            </value>
+            <value>
+                <fullName>Health Cloud Customer Community Plus Logins</fullName>
+                <default>false</default>
+                <label>Health Cloud Customer Community Plus Logins</label>
+            </value>
+            <value>
+                <fullName>Health Cloud Customer Community Plus Members</fullName>
+                <default>false</default>
+                <label>Health Cloud Customer Community Plus Members</label>
+            </value>
+            <value>
+                <fullName>Inbox</fullName>
+                <default>false</default>
+                <label>Inbox</label>
+            </value>
+            <value>
+                <fullName>Incentive Compensation Management - Spiff</fullName>
+                <default>false</default>
+                <label>Incentive Compensation Management - Spiff</label>
+            </value>
+            <value>
+                <fullName>Interaction Studio - Growth</fullName>
+                <default>false</default>
+                <label>Interaction Studio - Growth</label>
+            </value>
+            <value>
+                <fullName>Interaction Studio - Premium</fullName>
+                <default>false</default>
+                <label>Interaction Studio - Premium</label>
+            </value>
+            <value>
+                <fullName>Knowledge User</fullName>
+                <default>false</default>
+                <label>Knowledge User</label>
+            </value>
+            <value>
+                <fullName>Lightning Platform Plus</fullName>
+                <default>false</default>
+                <label>Lightning Platform Plus</label>
+            </value>
+            <value>
+                <fullName>Lightning Platform Starter</fullName>
+                <default>false</default>
+                <label>Lightning Platform Starter</label>
+            </value>
+            <value>
+                <fullName>Lightning Scheduler Asset</fullName>
+                <default>false</default>
+                <label>Lightning Scheduler Asset</label>
+            </value>
+            <value>
+                <fullName>Maps</fullName>
+                <default>false</default>
+                <label>Maps</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement (Pardot)</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement (Pardot)</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement - Advanced</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement - Advanced</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement - Growth</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement - Growth</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement - Plus</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement - Plus</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud Account Engagement - Premium</fullName>
+                <default>false</default>
+                <label>Marketing Cloud Account Engagement - Premium</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud - Basic</fullName>
+                <default>false</default>
+                <label>Marketing Cloud - Basic</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud - Corporate</fullName>
+                <default>false</default>
+                <label>Marketing Cloud - Corporate</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud - Enterprise</fullName>
+                <default>false</default>
+                <label>Marketing Cloud - Enterprise</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud - Pro</fullName>
+                <default>false</default>
+                <label>Marketing Cloud - Pro</label>
+            </value>
+            <value>
+                <fullName>Mobile Publisher</fullName>
+                <default>false</default>
+                <label>Mobile Publisher</label>
+            </value>
+            <value>
+                <fullName>Mobile Studio</fullName>
+                <default>false</default>
+                <label>Mobile Studio</label>
+            </value>
+            <value>
+                <fullName>MuleSoft</fullName>
+                <default>false</default>
+                <label>MuleSoft</label>
+            </value>
+            <value>
+                <fullName>MuleSoft Anypoint</fullName>
+                <default>false</default>
+                <label>MuleSoft Anypoint</label>
+            </value>
+            <value>
+                <fullName>MuleSoft Composer</fullName>
+                <default>false</default>
+                <label>MuleSoft Composer</label>
+            </value>
+            <value>
+                <fullName>MuleSoft Composer - Plus</fullName>
+                <default>false</default>
+                <label>MuleSoft Composer - Plus</label>
+            </value>
+            <value>
+                <fullName>MuleSoft Composer - Starter</fullName>
+                <default>false</default>
+                <label>MuleSoft Composer - Starter</label>
+            </value>
+            <value>
+                <fullName>Omnichannel Inventory</fullName>
+                <default>false</default>
+                <label>Omnichannel Inventory</label>
+            </value>
+            <value>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+                <label>Order Management</label>
+            </value>
+            <value>
+                <fullName>Pardot - Additional Prospects (10k)</fullName>
+                <default>false</default>
+                <label>Pardot - Additional Prospects (10k)</label>
+            </value>
+            <value>
+                <fullName>Pardot - Advanced</fullName>
+                <default>false</default>
+                <label>Pardot - Advanced</label>
+            </value>
+            <value>
+                <fullName>Pardot - B2B Marketing Analytics Plus</fullName>
+                <default>false</default>
+                <label>Pardot - B2B Marketing Analytics Plus</label>
+            </value>
+            <value>
+                <fullName>Pardot - Engagement History Dashboards</fullName>
+                <default>false</default>
+                <label>Pardot - Engagement History Dashboards</label>
+            </value>
+            <value>
+                <fullName>Pardot - Growth</fullName>
+                <default>false</default>
+                <label>Pardot - Growth</label>
+            </value>
+            <value>
+                <fullName>Pardot - Plus</fullName>
+                <default>false</default>
+                <label>Pardot - Plus</label>
+            </value>
+            <value>
+                <fullName>Pardot - Premium</fullName>
+                <default>false</default>
+                <label>Pardot - Premium</label>
+            </value>
+            <value>
+                <fullName>Pardot - Salesforce Engage</fullName>
+                <default>false</default>
+                <label>Pardot - Salesforce Engage</label>
+            </value>
+            <value>
+                <fullName>Partner Community Login</fullName>
+                <default>false</default>
+                <label>Partner Community Login</label>
+            </value>
+            <value>
+                <fullName>Partner Community Member</fullName>
+                <default>false</default>
+                <label>Partner Community Member</label>
+            </value>
+            <value>
+                <fullName>Professional Edition</fullName>
+                <default>false</default>
+                <label>Professional Edition</label>
+            </value>
+            <value>
+                <fullName>Revenue Cloud</fullName>
+                <default>false</default>
+                <label>Revenue Cloud</label>
+            </value>
+            <value>
+                <fullName>Revenue Intelligence</fullName>
+                <default>false</default>
+                <label>Revenue Intelligence</label>
+            </value>
+            <value>
+                <fullName>Sales &amp; Service Cloud</fullName>
+                <default>false</default>
+                <label>Sales &amp; Service Cloud</label>
+            </value>
+            <value>
+                <fullName>Salesforce / Sales Cloud</fullName>
+                <default>false</default>
+                <label>Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud - Enterprise Edition</fullName>
+                <default>false</default>
+                <label>Sales Cloud - Enterprise Edition</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud - Professional Edition</fullName>
+                <default>false</default>
+                <label>Sales Cloud - Professional Edition</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud - Unlimited Edition</fullName>
+                <default>false</default>
+                <label>Sales Cloud - Unlimited Edition</label>
+            </value>
+            <value>
+                <fullName>Sales Engagement</fullName>
+                <default>false</default>
+                <label>Sales Engagement</label>
+            </value>
+            <value>
+                <fullName>Salesforce Maps</fullName>
+                <default>false</default>
+                <label>Salesforce Maps</label>
+            </value>
+            <value>
+                <fullName>Salesforce Payments</fullName>
+                <default>false</default>
+                <label>Salesforce Payments</label>
+            </value>
+            <value>
+                <fullName>Salesforce Platform</fullName>
+                <default>false</default>
+                <label>Salesforce Platform</label>
+            </value>
+            <value>
+                <fullName>Lightning Scheduler</fullName>
+                <default>false</default>
+                <label>Salesforce Scheduler</label>
+            </value>
+            <value>
+                <fullName>Service Cloud</fullName>
+                <default>false</default>
+                <label>Service Cloud</label>
+            </value>
+            <value>
+                <fullName>Service Cloud - Enterprise Edition</fullName>
+                <default>false</default>
+                <label>Service Cloud - Enterprise Edition</label>
+            </value>
+            <value>
+                <fullName>Service Cloud - Professional Edition</fullName>
+                <default>false</default>
+                <label>Service Cloud - Professional Edition</label>
+            </value>
+            <value>
+                <fullName>Service Cloud - Unlimited Edition</fullName>
+                <default>false</default>
+                <label>Service Cloud - Unlimited Edition</label>
+            </value>
+            <value>
+                <fullName>Service Cloud Voice</fullName>
+                <default>false</default>
+                <label>Service Cloud Voice</label>
+            </value>
+            <value>
+                <fullName>Shield</fullName>
+                <default>false</default>
+                <label>Shield</label>
+            </value>
+            <value>
+                <fullName>Slack</fullName>
+                <default>false</default>
+                <label>Slack</label>
+            </value>
+            <value>
+                <fullName>Slack Business+</fullName>
+                <default>false</default>
+                <label>Slack Business+</label>
+            </value>
+            <value>
+                <fullName>Slack Enterprise Grid</fullName>
+                <default>false</default>
+                <label>Slack Enterprise Grid</label>
+            </value>
+            <value>
+                <fullName>Slack Pro</fullName>
+                <default>false</default>
+                <label>Slack Pro</label>
+            </value>
+            <value>
+                <fullName>Social Studio</fullName>
+                <default>false</default>
+                <label>Social Studio</label>
+            </value>
+            <value>
+                <fullName>Tableau CRM</fullName>
+                <default>false</default>
+                <label>Tableau CRM</label>
+            </value>
+            <value>
+                <fullName>Tableau</fullName>
+                <default>false</default>
+                <label>Tableau</label>
+            </value>
+            <value>
+                <fullName>Tableau Enterprise</fullName>
+                <default>false</default>
+                <label>Tableau Enterprise</label>
+            </value>
+            <value>
+                <fullName>Tableau Plus</fullName>
+                <default>false</default>
+                <label>Tableau Plus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

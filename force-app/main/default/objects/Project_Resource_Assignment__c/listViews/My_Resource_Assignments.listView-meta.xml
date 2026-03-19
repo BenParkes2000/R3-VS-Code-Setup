@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Resource_Assignments</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>Project__c</columns>
+    <columns>Hours_Monday__c</columns>
+    <columns>Hours_Tuesday__c</columns>
+    <columns>Hours_Wednesday__c</columns>
+    <columns>Hours_Thursday__c</columns>
+    <columns>Hours_Friday__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Start_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <filters>
+        <field>Hours_Total__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>This Week Billing Estimate</label>
+</ListView>

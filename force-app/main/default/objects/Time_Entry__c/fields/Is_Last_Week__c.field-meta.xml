@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Last_Week__c</fullName>
+    <description>//TODO Confirm what this field is for</description>
+    <formula>IF( AND(DATEVALUE(Start__c) &gt; (TODAY()-( WEEKDAY( TODAY() ) + 6 ) ),
+              DATEVALUE(Start__c) &lt;= (TODAY() - WEEKDAY( TODAY() )  )
+              ), 
+    TRUE, 
+    FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Last Week</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

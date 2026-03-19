@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard</fullName>
+    <active>true</active>
+    <label>Standard</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Accomodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment %28not tax deductible%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment %28tax deductible%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment %28less than 1000%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment %28more than 1000%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eye Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Office Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Journals%2C Magazines%2C Newspapers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasing Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28not tax deductible%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%3A Please specify %28No VAT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%3A Please specify %28VAT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printing and Stationary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional %26 Legal Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscriptions%2C Professional Memberships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsistence %28e%2Eg%2E lunch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telephone %26 Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

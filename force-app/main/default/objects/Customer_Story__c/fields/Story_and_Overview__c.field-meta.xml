@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Story_and_Overview__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Can Salesforce AEs share this story and overview slide in sales settings?</inlineHelpText>
+    <label>Story and Overview?</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_PO_Budget__c</fullName>
+    <inlineHelpText>Total of Approved or Available Purchase Orders against the project</inlineHelpText>
+    <label>Total PO Budget</label>
+    <summarizedField>Purchase_Order__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Purchase_Order__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Approved, Available</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Purchase_Order__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Active_Projects_review</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Total_Estimate__c</columns>
+    <columns>Total_Actual_Billable_Time_hrs__c</columns>
+    <columns>Status__c</columns>
+    <columns>Customer_Sentiment__c</columns>
+    <columns>Resource__c</columns>
+    <columns>Schedule__c</columns>
+    <columns>Scope__c</columns>
+    <columns>Budget__c</columns>
+    <columns>Project_Update__c</columns>
+    <columns>Project_Report_Date__c</columns>
+    <columns>Lead_Consultant__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>R3 Digital</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Kick off,In Progress,UAT,Hyper care,Support</value>
+    </filters>
+    <label>My Active Projects - review</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Search_Information__c</fullName>
+    <description>Used in the search layout to display additional information about the Work Item</description>
+    <externalId>false</externalId>
+    <formula>Subject__c + &apos;: &apos; + 
+Project__r.Name +
+IF(NOT(ISBLANK( Feature__c )), &apos; / &apos; + Feature__r.Name, &apos;&apos;) + 
+IF(NOT(ISBLANK(Project_Phase__c)), &apos; / &apos; + Project_Phase__r.Name, &apos;&apos;)</formula>
+    <label>Search Information</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Blocker_and_Blocked_WI_Selected</fullName>
+    <active>true</active>
+    <description>Ensure that both a Blocker and Blocked work item are selected</description>
+    <errorConditionFormula>OR(
+    ISBLANK(Blocked_Work_Item__c),
+    ISBLANK(Blocker_Work_Item__c)
+)</errorConditionFormula>
+    <errorMessage>Please select a Blocker Work Item and a Blocked Work Item</errorMessage>
+</ValidationRule>

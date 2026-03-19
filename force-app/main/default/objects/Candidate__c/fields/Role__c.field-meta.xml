@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Associate Consultant</fullName>
+                <default>false</default>
+                <label>Associate Consultant</label>
+            </value>
+            <value>
+                <fullName>Associate Developer</fullName>
+                <default>false</default>
+                <label>Associate Developer</label>
+            </value>
+            <value>
+                <fullName>Associate Project Manager</fullName>
+                <default>false</default>
+                <label>Associate Project Manager</label>
+            </value>
+            <value>
+                <fullName>Business Analyst</fullName>
+                <default>false</default>
+                <label>Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Delivery Director</fullName>
+                <default>false</default>
+                <label>Delivery Director</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer (SF)</label>
+            </value>
+            <value>
+                <fullName>Developer (web)</fullName>
+                <default>false</default>
+                <label>Developer (web)</label>
+            </value>
+            <value>
+                <fullName>Graduate Business Analyst</fullName>
+                <default>false</default>
+                <label>Graduate Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Graduate Project Manager</fullName>
+                <default>false</default>
+                <label>Graduate Project Manager</label>
+            </value>
+            <value>
+                <fullName>Graduate Software Developer</fullName>
+                <default>false</default>
+                <label>Graduate Software Developer</label>
+            </value>
+            <value>
+                <fullName>Lead Business Analyst</fullName>
+                <default>false</default>
+                <label>Lead Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Lead Consultant</fullName>
+                <default>false</default>
+                <label>Lead Consultant</label>
+            </value>
+            <value>
+                <fullName>Lead Consultant (MC)</fullName>
+                <default>false</default>
+                <label>Lead Consultant (MC)</label>
+            </value>
+            <value>
+                <fullName>Lead Developer</fullName>
+                <default>false</default>
+                <label>Lead Developer</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Principal Consultant</fullName>
+                <default>false</default>
+                <label>Principal Consultant</label>
+            </value>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+                <label>Project Manager</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Senior Business Analyst</fullName>
+                <default>false</default>
+                <label>Senior Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Senior Consultant</fullName>
+                <default>false</default>
+                <label>Senior Consultant</label>
+            </value>
+            <value>
+                <fullName>Senior Consultant (MC)</fullName>
+                <default>false</default>
+                <label>Senior Consultant (MC)</label>
+            </value>
+            <value>
+                <fullName>Senior Developer</fullName>
+                <default>false</default>
+                <label>Senior Developer</label>
+            </value>
+            <value>
+                <fullName>Senior Project Manager</fullName>
+                <default>false</default>
+                <label>Senior Project Manager</label>
+            </value>
+            <value>
+                <fullName>Technical Consultant</fullName>
+                <default>false</default>
+                <label>Technical Consultant</label>
+            </value>
+            <value>
+                <fullName>Product Business Analysis</fullName>
+                <default>false</default>
+                <label>Product Business Analysis</label>
+            </value>
+            <value>
+                <fullName>Associate Data Analytics Consultant</fullName>
+                <default>false</default>
+                <label>Associate Data Analytics Consultant</label>
+            </value>
+            <value>
+                <fullName>Data Analytics Consultant</fullName>
+                <default>false</default>
+                <label>Data Analytics Consultant</label>
+            </value>
+            <value>
+                <fullName>Senior Data Analytics Consultant</fullName>
+                <default>false</default>
+                <label>Senior Data Analytics Consultant</label>
+            </value>
+            <value>
+                <fullName>Solution Architect</fullName>
+                <default>false</default>
+                <label>Solution Architect</label>
+            </value>
+            <value>
+                <fullName>Solution Director</fullName>
+                <default>false</default>
+                <label>Solution Director</label>
+            </value>
+            <value>
+                <fullName>Chief of Staff</fullName>
+                <default>false</default>
+                <label>Chief of Staff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

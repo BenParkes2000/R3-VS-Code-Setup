@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Video Screen</fullName>
+                <default>false</default>
+                <label>Video Screen</label>
+            </value>
+            <value>
+                <fullName>1st Interview</fullName>
+                <default>false</default>
+                <label>1st Interview</label>
+            </value>
+            <value>
+                <fullName>Psychometric</fullName>
+                <default>false</default>
+                <label>Psychometric</label>
+            </value>
+            <value>
+                <fullName>2nd Interview</fullName>
+                <default>false</default>
+                <label>2nd Interview</label>
+            </value>
+            <value>
+                <fullName>Technical Interview</fullName>
+                <default>false</default>
+                <label>Technical Interview</label>
+            </value>
+            <value>
+                <fullName>Final Interview</fullName>
+                <default>false</default>
+                <label>Final Interview</label>
+            </value>
+            <value>
+                <fullName>Shortlisted</fullName>
+                <default>false</default>
+                <label>Shortlisted</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Offered</fullName>
+                <default>false</default>
+                <label>Offered</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Archived</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Archived</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

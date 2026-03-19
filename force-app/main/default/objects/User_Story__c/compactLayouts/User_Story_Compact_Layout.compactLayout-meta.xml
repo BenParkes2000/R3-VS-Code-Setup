@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Story_Compact_Layout</fullName>
+    <fields>User_Story_Title__c</fields>
+    <fields>Project__c</fields>
+    <fields>Name</fields>
+    <fields>Num_of_Work_Items__c</fields>
+    <label>User Story Compact Layout</label>
+</CompactLayout>

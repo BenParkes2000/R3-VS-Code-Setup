@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Air_Angel</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Feature__c</columns>
+    <columns>Project__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Est_Time__c</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Status__c</columns>
+    <columns>Feature_Sort_Order__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>contains</operation>
+        <value>Air</value>
+    </filters>
+    <label>All - Air Angel</label>
+    <sharedTo></sharedTo>
+</ListView>

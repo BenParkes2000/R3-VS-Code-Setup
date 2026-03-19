@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_UAT_Items__c</fullName>
+    <description>A field to highlight the outstanding number of UAT Items on a project</description>
+    <label>Outstanding UAT Items</label>
+    <summaryFilterItems>
+        <field>UAT_Feedback__c.Status_UAT_Feedback__c</field>
+        <operation>equals</operation>
+        <value>Open, WIP, Re-Test</value>
+    </summaryFilterItems>
+    <summaryForeignKey>UAT_Feedback__c.Project_UAT__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

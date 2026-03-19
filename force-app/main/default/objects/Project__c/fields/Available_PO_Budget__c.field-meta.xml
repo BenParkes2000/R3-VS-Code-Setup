@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_PO_Budget__c</fullName>
+    <inlineHelpText>The total available (approved and up to the current phase) purchase orders on the project</inlineHelpText>
+    <label>Available PO Budget</label>
+    <summarizedField>Purchase_Order__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Purchase_Order__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Available</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Purchase_Order__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

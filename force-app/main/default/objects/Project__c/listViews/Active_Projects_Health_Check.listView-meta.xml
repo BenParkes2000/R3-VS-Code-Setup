@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Projects_Health_Check</fullName>
+    <columns>NAME</columns>
+    <columns>Age__c</columns>
+    <columns>Default_Product_Owner__c</columns>
+    <columns>R3_SPOC__c</columns>
+    <columns>Lead_Consultant__c</columns>
+    <columns>IC__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>R3 Digital</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Discovery,On Hold,In Progress,UAT,Hyper care</value>
+    </filters>
+    <filters>
+        <field>Account__c</field>
+        <operation>notEqual</operation>
+        <value>Gazela</value>
+    </filters>
+    <label>Active Projects - Health Check</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

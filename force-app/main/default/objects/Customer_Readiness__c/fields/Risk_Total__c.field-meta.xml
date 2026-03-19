@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>Clear_Project_Sponsor_Buy_in_Score__c + Goals_of_Project_clearly_defined_Score__c +
+Sales_Lifecycle_being_rushed_Score__c +
+Is_there_a_client_PM_Score__c +
+Knowledgeable_client_product_owner_Score__c +
+Internal_resource_to_own_delivery_Score__c +
+Have_they_completed_IT_projects_Score__c +
+Detailed_requirements_written_down_Score__c +
+Expectations_beyond_budget_Score__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Risk Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

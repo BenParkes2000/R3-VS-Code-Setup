@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certification__c</fullName>
+    <label>Certification</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Advanced Field Service</fullName>
+                <default>false</default>
+                <label>Advanced Field Service</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B Admin</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B Admin</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud B2B Dev</fullName>
+                <default>false</default>
+                <label>Commerce Cloud B2B Dev</label>
+            </value>
+            <value>
+                <fullName>Contact Centre</fullName>
+                <default>false</default>
+                <label>Contact Centre</label>
+            </value>
+            <value>
+                <fullName>Data Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Data Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Health Cloud AP</fullName>
+                <default>false</default>
+                <label>Health Cloud AP</label>
+            </value>
+            <value>
+                <fullName>Maps</fullName>
+                <default>false</default>
+                <label>Maps</label>
+            </value>
+            <value>
+                <fullName>Mulesoft Integration Associate</fullName>
+                <default>false</default>
+                <label>Mulesoft Integration Associate</label>
+            </value>
+            <value>
+                <fullName>Non-Profit Cloud</fullName>
+                <default>false</default>
+                <label>Non-Profit Cloud</label>
+            </value>
+            <value>
+                <fullName>Order Management Admin</fullName>
+                <default>false</default>
+                <label>Order Management Admin</label>
+            </value>
+            <value>
+                <fullName>Order Management Developer</fullName>
+                <default>false</default>
+                <label>Order Management Developer</label>
+            </value>
+            <value>
+                <fullName>Revenue Cloud Consultant Accredited Professional</fullName>
+                <default>false</default>
+                <label>Revenue Cloud Consultant Accredited Professional</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Sales Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Service Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Service Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Field Service Consultant</fullName>
+                <default>false</default>
+                <label>Field Service Consultant</label>
+            </value>
+            <value>
+                <fullName>CPQ Specialist</fullName>
+                <default>false</default>
+                <label>CPQ Specialist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

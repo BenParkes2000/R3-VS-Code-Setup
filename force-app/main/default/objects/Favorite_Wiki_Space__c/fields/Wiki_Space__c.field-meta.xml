@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wiki_Space__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The wiki space that has been favourited.</description>
+    <label>Wiki Space</label>
+    <referenceTo>Wiki_Space__c</referenceTo>
+    <relationshipLabel>Favorite Wiki Spaces</relationshipLabel>
+    <relationshipName>Favorite_Wiki_Spaces</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

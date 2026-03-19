@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_mandatory_no_project</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK(Project__c) &amp;&amp; ISBLANK(Account__c)</errorConditionFormula>
+    <errorDisplayField>Account__c</errorDisplayField>
+    <errorMessage>An Account or Project reference must be provided for every expense item!</errorMessage>
+</ValidationRule>

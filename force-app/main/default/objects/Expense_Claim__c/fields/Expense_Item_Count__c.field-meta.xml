@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expense_Item_Count__c</fullName>
+    <label>Expense Item Count</label>
+    <summaryFilterItems>
+        <field>Expense_Item__c.Type__c</field>
+        <operation>notEqual</operation>
+        <value>Mileage</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Expense_Item__c.Expense_Claim__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

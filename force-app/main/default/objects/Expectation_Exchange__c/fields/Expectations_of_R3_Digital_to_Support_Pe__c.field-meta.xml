@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expectations_of_R3_Digital_to_Support_Pe__c</fullName>
+    <description>Drafted by individual and agreed with line manager - any items that the individual is looking for from the line manager or wider R3 Digital in order to succeed with their individual performance and personal development objectives. 
+
+This could include training, insights, mentoring or requests around ways of working. The objective here is to initiate an open discussion between individual and organisation around their expectations of the organisation in order to support the agreed outcomes above.
+
+The line manager will take a judgement call around those expectations they are able to commit to, and those that might need agreement or awareness from others in R3.</description>
+    <inlineHelpText>Drafted by individual and agreed with line manager - any items that the individual is looking for from the line manager or wider R3 Digital in order to succeed with their individual performance and personal development objectives.</inlineHelpText>
+    <label>Support Expected of R3 Digital</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

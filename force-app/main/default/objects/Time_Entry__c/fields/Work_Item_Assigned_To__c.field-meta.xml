@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Item_Assigned_To__c</fullName>
+    <description>Formula field to get the name of the user the Work Item is assigned to</description>
+    <externalId>false</externalId>
+    <formula>Work_Item__r.Assigned_To__r.FirstName + &quot; &quot; +  Work_Item__r.Assigned_To__r.LastName</formula>
+    <label>Work Item Assigned To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
